@@ -1,0 +1,97 @@
+/* *** NAvbar Section style *** */
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	width: 100%;
+	height: 80px;
+}
+
+.logo_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	/*background: blue;*/
+}
+
+.logo_container a {
+	color: #717171;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.menu_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	/*background: black;*/
+}
+
+.active {
+	background: #f1f1f1;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/*background: whitesmoke;*/
+}
+
+.menu a {
+	/*line-height: 60px;*/
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #717171;
+	text-transform: uppercase;
+}
+
+.menu a:hover {
+	background: #f1f1f1;
+}
+
+.contact_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	/*background: red;*/
+}
+
+.contact_container a {
+	/*line-height: 60px;*/
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #717171;
+	text-transform: uppercase;
+}
+
+.contact_container a:hover {
+	background: #f1f1f1;
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: #717171;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+.check {
+	display: none;
+}
+

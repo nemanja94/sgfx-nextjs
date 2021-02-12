@@ -5,11 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "navigation": "^5.3.1",
     "next": "10.0.6",
+    "pagination": "^0.4.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.32.7",
+    "swiper": "^6.4.11"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
   }
 }

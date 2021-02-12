@@ -1,0 +1,40 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "img": "./public/images/1.jpg",
+      "title": "Naslov 1",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem impedit quaerat magnam ducimus totam eaque."
+    },
+    {
+      "id": 2,
+      "img": "./public/images/2.jpg",
+      "title": "Naslov 2",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quo facilis non, sint praesentium expedita suscipit?"
+    },
+    {
+      "id": 3,
+      "img": "./public/images/3.jpg",
+      "title": "Naslov 3",
+      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt porro ullam voluptates aliquid! Laudantium eligendi dignissimos laborum."
+    },
+    {
+      "id": 4,
+      "img": "./public/images/4.jpg",
+      "title": "Naslov 4",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore dolorem doloribus recusandae, magnam ab rerum tempora sapiente?"
+    },
+    {
+      "id": 5,
+      "img": "./public/images/5.jpg",
+      "title": "Naslov 5",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores voluptates quo id, maiores eligendi architecto maxime dicta minima!"
+    },
+    {
+      "id": 6,
+      "img": "./public/images/6.jpg",
+      "title": "Naslov 6",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellendus sunt magnam, dolore nesciunt numquam excepturi ea. Ad, quibusdam ratione."
+    }
+  ]
+}
