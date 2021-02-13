@@ -17,13 +17,13 @@ const Navbar = () => {
             <div className={navbarStyles.menu_container}>
                 <div className={navbarStyles.menu}>
                     <Link href="/">
-                        <a className={navbarStyles.active}>Home</a></Link>
-                    <Link href="/about"><a>About</a></Link>
-                    <Link href="/services"><a>Services</a></Link>
+                        <a className={navbarStyles.active}>Naslovna</a></Link>
+                    <Link href="/about"><a>Usluge</a></Link>
+                    <Link href="/services"><a>Ticketing App</a></Link>
                 </div>
             </div>
             <div className={navbarStyles.contact_container}>
-                <Link className={navbarStyles.menuItem} href="/contact"><a>Contact</a></Link>
+                <Link className={navbarStyles.menuItem} href="/contact"><a>Kontakt</a></Link>
             </div>
         </nav>
     )
