@@ -19,34 +19,34 @@ const Carousel = () => {
                     <h1 className={carouselStyle.title}>Lorem ipsum dolor sit amet ipsum sit ipsum.</h1>
                     <p className={carouselStyle.content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae delectus quisquam ipsam voluptates quia impedit quasi atque, sapiente tempore.  </p>
                 </div>
-                <Image src="/images/1.jpg" width={1000} height={400} layout="responsive"></Image>
+                <img className={carouselStyle.slideImage} src="/images/1.jpg"  ></img>
             </SwiperSlide>
             <SwiperSlide><div className={carouselStyle.imageCard}>
                 <h1 className={carouselStyle.title}>Lorem ipsum dolor sit amet ipsum sit ipsum.</h1>
                 <p className={carouselStyle.content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae delectus quisquam ipsam voluptates quia impedit quasi atque, sapiente tempore.  </p>
             </div>
-                <Image src="/images/2.jpg" width={1000} height={400} layout="responsive"></Image>
+            <img className={carouselStyle.slideImage} src="/images/2.jpg"  ></img>
             </SwiperSlide>
             <SwiperSlide>
                 <div className={carouselStyle.imageCard}>
                     <h1 className={carouselStyle.title}>Lorem ipsum dolor sit amet ipsum sit ipsum.</h1>
                     <p className={carouselStyle.content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae delectus quisquam ipsam voluptates quia impedit quasi atque, sapiente tempore.  </p>
                 </div>
-                <Image src="/images/3.jpg" width={1000} height={400} layout="responsive"></Image>
+                <img className={carouselStyle.slideImage} src="/images/3.jpg"  ></img>
             </SwiperSlide>
             <SwiperSlide>
                 <div className={carouselStyle.imageCard}>
                     <h1 className={carouselStyle.title}>Lorem ipsum dolor sit amet ipsum sit ipsum.</h1>
                     <p className={carouselStyle.content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae delectus quisquam ipsam voluptates quia impedit quasi atque, sapiente tempore.  </p>
                 </div>
-                <Image src="/images/4.jpg" width={1000} height={400} layout="responsive"></Image>
+                <img className={carouselStyle.slideImage} src="/images/4.jpg"  ></img>
             </SwiperSlide>
             <SwiperSlide>
                 <div className={carouselStyle.imageCard}>
                     <h1 className={carouselStyle.title}>Lorem ipsum dolor sit amet ipsum sit ipsum.</h1>
                     <p className={carouselStyle.content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae delectus quisquam ipsam voluptates quia impedit quasi atque, sapiente tempore.  </p>
                 </div>
-                <Image src="/images/5.jpg" width={1000} height={400} layout="responsive"></Image>
+                <img className={carouselStyle.slideImage} src="/images/5.jpg"  ></img>
             </SwiperSlide>
         </Swiper>
     )

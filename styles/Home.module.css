@@ -120,7 +120,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    padding: 3%; 
+    padding: 3%;
     border-top: 5px solid #fff;
 }
 
@@ -188,9 +188,7 @@
     color: #1d3557;
 }
 
-.footer1,
-.footer2,
-.footer3 {
+.footer1, .footer2, .footer3 {
     color: #1d3557;
     font-weight: 500;
 }
@@ -198,3 +196,113 @@
 .footer1 p {
     cursor: pointer;
 }
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 767px) {
+    .title {
+        width: 100%;
+        padding: 1% 4%;
+    }
+    .title h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .title p {
+        text-align: justify;
+        width: 100%;
+    }
+    .cards {
+        width: 90%;
+        margin-top: 10%;
+    }
+    .paralax {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .topBox {
+        width: 80%;
+        height: 8%;
+        top: -4%
+    }
+    .banner {
+        flex-direction: column;
+        height: 90vh;
+        width: 90%;
+        top: 4vh;
+    }
+    .leftBanner {
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .leftBanner h1 {
+        text-align: center;
+        font-size: 26px;
+    }
+    .leftBanner p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .rightBanner {
+        position: relative;
+        position: relative;
+        justify-content: flex-start;
+        width: 100%;
+        left: 0;
+        margin-top: 6%;
+    }
+    .rightBanner h1 {
+        width: 100%;
+        transform: translateX(0);
+        text-align: center;
+        margin-top: 12%;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer1, .footer2, .footer3 {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .title {
+        width: 100%;
+        padding: 1% 4%;
+    }
+    .title h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .title p {
+        text-align: justify;
+        width: 85%;
+    }
+    .cards {
+        width: 80%;
+    }
+    .banner {
+        width: 90%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
